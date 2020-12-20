@@ -68,11 +68,11 @@ Material:
     - _DstBlend: 0
     - _EmissionScaleUI: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.278
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _Lightmapping: 1
     - _Mode: 0
-    - _OcclusionStrength: 1
+    - _OcclusionStrength: 0.637
     - _Parallax: 0.02
     - _Shininess: 0.12016502
     - _SmoothnessTextureChannel: 0
