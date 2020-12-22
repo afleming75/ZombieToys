@@ -108,7 +108,7 @@ NavMeshSettings:
     serializedVersion: 2
     agentTypeID: 0
     agentRadius: 0.5
-    agentHeight: 2
+    agentHeight: 1.2
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
@@ -121,7 +121,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 5637c9fa55d80af43804db476f285116, type: 2}
 --- !u!1001 &27121101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3885,6 +3885,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2064688296}
     m_Modifications:
+    - target: {fileID: 2676893536587102856, guid: 4017fe054b2ccc449866a87334bf13e8,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.6272409
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676893536587102856, guid: 4017fe054b2ccc449866a87334bf13e8,
+        type: 3}
+      propertyPath: m_Height
+      value: 1.7997161
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676893536587102856, guid: 4017fe054b2ccc449866a87334bf13e8,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.039999615
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676893536587102856, guid: 4017fe054b2ccc449866a87334bf13e8,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.8656002
+      objectReference: {fileID: 0}
     - target: {fileID: 7751314686408236683, guid: 4017fe054b2ccc449866a87334bf13e8,
         type: 3}
       propertyPath: m_Name
@@ -3955,7 +3975,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6155342232961617479, guid: 4017fe054b2ccc449866a87334bf13e8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4017fe054b2ccc449866a87334bf13e8, type: 3}
 --- !u!4 &1232539804 stripped
 Transform:
@@ -4219,8 +4240,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487925947}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.02308567, y: 0.037799213, z: 0.00077131955, w: 0.9990184}
+  m_LocalPosition: {x: -112.661674, y: 8.42046, z: -50.4581}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
