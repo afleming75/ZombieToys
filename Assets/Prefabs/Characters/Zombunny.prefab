@@ -104,7 +104,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: 0.02
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &7026134585507955415
@@ -163,7 +163,7 @@ MonoBehaviour:
   animator: {fileID: 7026134585517356970}
   audioSource: {fileID: 0}
   capsuleCollider: {fileID: 7026134585507955413}
-  hitParticles: {fileID: 0}
+  hitParticles: {fileID: 19881454, guid: 1c3a4f54276893240b6224d53f76eef8, type: 3}
   isInvulnerable: 0
 --- !u!1 &7026134585507857442
 GameObject:
