@@ -52,12 +52,12 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: ffc1cce828542694b8004c32865149a5, type: 3}
   m_Controller: {fileID: 22100000, guid: c088510e55adf3d459486ce672641567, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
-  m_HasTransformHierarchy: 0
+  m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!136 &1881709502085750487
